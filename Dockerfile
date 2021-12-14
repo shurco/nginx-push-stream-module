@@ -19,7 +19,7 @@ RUN apk add --no-cache --virtual .build-deps \
 	&& tar -zxC /usr/src -f push.tar.gz \
 	&& rm push.tar.gz \
     && cd /usr/src/nginx-$NGINX_VERSION \
-    && ./configure --add-module=/usr/src/nginx-push-stream-module-$NGINX_PUSH_MODULE --with-http_ssl_module --with-http_v2_module \
+    && ./configure --add-module=/usr/src/nginx-push-stream-module-$NGINX_PUSH_MODULE --with-http_ssl_module --with-http_v2_module --with-http_realip_module \
     && make \
     && make install \
     && apk del .build-deps \
