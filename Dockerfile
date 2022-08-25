@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.16.2
 
 ENV NGINX_VERSION 1.23.1
 ENV NGINX_PUSH_MODULE 0.5.5
