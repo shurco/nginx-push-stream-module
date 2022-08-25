@@ -15,6 +15,6 @@ Lightweight  Docker image using Alpine for an Nginx using Nginx Push Stream Modu
 
 ## Versions used:
 
-- Alpine version: 3.14.2
-- Nginx version: 1.20.1
+- Alpine version: 3.16.2
+- Nginx version: 1.23.1
 - Nginx Push Stream Moduleversion: 0.5.4
