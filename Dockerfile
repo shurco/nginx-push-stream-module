@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ENV NGINX_VERSION 1.23.1
-ENV NGINX_PUSH_MODULE 0.5.4
+ENV NGINX_PUSH_MODULE 0.5.5
 
 RUN apk add --no-cache --virtual .build-deps \
         build-base \
